@@ -1,0 +1,26 @@
+:root 
+{
+    --titlecolor:#eeeeee;
+    --titlebgcolor:#3c339a;
+    --bodybgcolor: #5a79c8;
+    --contentbgcolor: #aee4ed;
+    --navbgcolor:#eeeeee;
+}
+body
+{
+    font-family: "Roboto", sans-serif;
+    background-color:var(--bodybgcolor);
+}
+main
+{
+    min-height:100vh;
+    background-color: var(--contentbgcolor);
+    max-width: 800px;
+    padding:10px;
+    margin: auto;
+}
+label,input,textarea,select,button
+{
+    display: block;
+    margin-bottom: 10px;
+}

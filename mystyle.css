@@ -1,0 +1,26 @@
+:root 
+{
+    --titlecolor:#eeeeee;
+    --titlebgcolor:#9a3333;
+    --bodybgcolor: #3d2121;
+    --contentbgcolor: #dadada;
+    --navbgcolor:#eeeeee;
+}
+body
+{
+    font-family: "Oswald", serif;
+    background-color:var(--bodybgcolor);
+}
+main
+{
+    min-height:100vh;
+    background-color: var(--contentbgcolor);
+    max-width: 800px;
+    padding:10px;
+    margin: auto;
+}
+label,input,textarea,select,button
+{
+    display: block;
+    margin-bottom: 10px;
+}

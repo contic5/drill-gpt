@@ -1,0 +1,15 @@
+# Ignore Composer vendor directory
+/vendor/
+
+# Ignore environment variables
+generative_ai_keys.env
+
+# Ignore log files
+*.log
+
+# Ignore OS files
+.DS_Store
+
+*.key
+*.pem
+*.secret

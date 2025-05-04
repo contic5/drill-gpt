@@ -1,0 +1,10 @@
+Idea is to create a ChatGPT wrapper that comes up with ideas for Taekwondo exercise drills.
+
+Use a form that has the following inputs
+belt level
+exercise_area (upper or lower body)
+equipment (kicking shield (big target), hand targets, partners)
+weekly_curriculum (form, breaking, kicking combinations, self defense)
+
+Send the following input to ChatGPT
+Give me a taekwondo exercise drill for {belt_level} students that focuses on {exercise_area}, uses {equipment} and will help for {weekly_curriculum}.
